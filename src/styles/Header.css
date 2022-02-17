@@ -1,0 +1,45 @@
+.itemNavMenu {
+	padding: 30px;
+	color: white;
+	font-weight: bold;
+}
+.itemNavMenu:hover:not(.active) {
+	color: rgb(255, 255, 255);
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	background-color: midnightblue;
+	display: flex;
+	align-items: center;
+	font-size: calc(10px + 1.5vmin);
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-list {
+	list-style: none;
+	display: flex;
+	color: white;
+	text-decoration: none;
+	margin: 0;
+}
+.navbar-list a.chosen,
+.navbar-list a:hover {
+	color: white;
+	background-color: rgb(15, 15, 45);
+
+	
+}
+.navbar-list a {
+	color: white;
+	text-decoration: none;
+	padding: 30px;
+}
+.navbar-logo {
+	padding: 30px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-decoration: none;
+}
